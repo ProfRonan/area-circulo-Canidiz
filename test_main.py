@@ -19,7 +19,7 @@ class Test(unittest.TestCase):
             main.main()
             mock_input.assert_called()
             result = pi * float(input_returns[0])**2
-            result = f'A área do círculo é {result:.2f}'
+            result = f'A área do círculo é {result:.2f.}'
             mock_print.assert_called_with(result)
 
 
