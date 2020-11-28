@@ -6,8 +6,8 @@ def main():
     """Função principal que será rodada quando o script for passado para o interpretador."""
     R = int(input("Qual o raio do circulo?\n"))
     P = math.pi
-    A = round(P * R**2,2)
-    print (f"A área do circulo é {A}.")
+    A = P * R**2
+    print (f"A área do círculo é {A:.2f}.")
 
 
 if __name__ == '__main__':
